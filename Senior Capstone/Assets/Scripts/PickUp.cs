@@ -41,10 +41,10 @@ public class PickUp : MonoBehaviour {
     {
         device = SteamVR_Controller.Input((int)trackedObj.index);
 
-        Debug.Log("Collided!!!" + collidedWith.name);
+        //Debug.Log("Collided!!!" + collidedWith.name);
         if(device.GetTouch(SteamVR_Controller.ButtonMask.Trigger))
         {
-            Debug.Log("You have collided with" + collidedWith.name + " and held down touch");
+            // Debug.Log("You have collided with" + collidedWith.name + " and held down touch");
             collidedWith.attachedRigidbody.isKinematic = true; 
             // remove rigid body
             collidedWith.gameObject.transform.SetParent(this.gameObject.transform); 

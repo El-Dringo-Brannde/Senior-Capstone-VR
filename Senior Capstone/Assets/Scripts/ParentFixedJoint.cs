@@ -25,6 +25,6 @@ public class ParentFixedJoint : MonoBehaviour {
 
     private void OnTriggerStay(Collider other)
     {
-        Debug.Log("You have collided with " + other.name);
+        //Debug.Log("You have collided with " + other.name);
     }
 }
