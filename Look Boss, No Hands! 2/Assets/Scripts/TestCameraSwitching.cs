@@ -5,7 +5,11 @@ using Wrld.Space;
 using UnityEngine;
 using SocketIO; 
 
-
+/* 
+ * Class Component that listens on the websocket for any commands that may switch the 
+ * VR environment from maps to home or vice versa
+ * 
+ */
 public class TestCameraSwitching : MonoBehaviour
 {
     public GameObject PositionedFrame;

@@ -6,6 +6,11 @@ using SocketIO;
 using ChartAndGraph;
 using System.Globalization;
 
+
+/*
+ * Component that sits on top of our line charts, listening for websocket data. 
+ * When the data arrives it updates the line chart specified. 
+ */
 public class LineGraphSocketIO : MonoBehaviour {
     public GraphChartBase LineChart;
     private SocketIOComponent socket;
@@ -63,13 +68,10 @@ public class LineGraphSocketIO : MonoBehaviour {
                     }
                     idx++;
                 }
-                
             }
         });
     }
 	
 	// Update is called once per frame
-	void Update () {
-
-	}
+	void Update () {}
 }

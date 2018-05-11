@@ -6,6 +6,11 @@ using JSONTypes;
 using ChartAndGraph; 
 
 
+
+/*
+ * Component used to listen to data on the websocket and populate data 
+ * on the radar chart when data comes through the Pie_Chart Channel. 
+ */
 public class RadarChartSocketIO : MonoBehaviour {
     public RadarChart Radar; 
     public SocketIOComponent socket;

@@ -7,6 +7,7 @@ using ChartAndGraph;
 using JSONTypes;
 
 
+// Class component used to pull data from the websocket and populate the bar charts
 public class BarGraphSocketIO : MonoBehaviour {
     public BarChart BarChart;
     public SocketIOComponent socket;
@@ -74,7 +75,5 @@ public class BarGraphSocketIO : MonoBehaviour {
    
 
     // Update is called once per frame
-    void Update () {}
-
-    
+    void Update () {}    
 }

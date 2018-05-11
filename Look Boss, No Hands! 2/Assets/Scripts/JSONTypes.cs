@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
+/*
+ * File used to create JSON types of the sales data that might come in via the websocket
+ */
 namespace JSONTypes
 {
     public class brute

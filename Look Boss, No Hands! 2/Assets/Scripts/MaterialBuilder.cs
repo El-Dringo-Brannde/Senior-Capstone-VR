@@ -6,6 +6,7 @@ using UnityEngine;
 
 
 // My first C# class... Could be configured to do logic in constructor
+// Used to share materials as a global color/shader to be used to color graphs
 public class MaterialBuilder
 {
     public Material[] MaterialColorArray = new Material[10];

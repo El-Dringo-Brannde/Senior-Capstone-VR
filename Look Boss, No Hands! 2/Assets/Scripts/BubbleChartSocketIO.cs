@@ -5,6 +5,11 @@ using System;
 using SocketIO;
 using ChartAndGraph; 
 
+/* 
+ * If commented back in, this component would listen on the
+ * websocket and populate the bubble charts. However, 
+ * the bubble chart graph idea was nixed, so this is more than deprecated. 
+ */ 
 public class BubbleChartSocketIO : MonoBehaviour {
     public GraphChartBase BubbleChart;
     public SocketIOComponent socket;

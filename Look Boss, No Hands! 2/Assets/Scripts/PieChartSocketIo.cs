@@ -6,7 +6,10 @@ using SocketIO;
 using ChartAndGraph;
 
 
-
+/* 
+ * Component used to listen on the websocket and populate the 
+ * pie charts when data on their channel comes through. 
+ */
 public class PieChartSocketIo : MonoBehaviour
 {
 

@@ -663,7 +663,6 @@
     <Compile Include="Assets\Packages\VRTK\Scripts\Utilities\VRTK_SDKTransformModify.cs" />
     <Compile Include="Assets\Packages\VRTK\Scripts\Utilities\VRTK_SharedMethods.cs" />
     <Compile Include="Assets\Packages\VRTK\Scripts\Utilities\VRTK_Simulator.cs" />
-    <Compile Include="Assets\PositionObjectOnMap.cs" />
     <Compile Include="Assets\Scripts\BarGraphSocketIO.cs" />
     <Compile Include="Assets\Scripts\BubbleChartSocketIO.cs" />
     <Compile Include="Assets\Scripts\CustomPositionLatLng.cs" />
@@ -672,9 +671,11 @@
     <Compile Include="Assets\Scripts\LineGraphSocketIO.cs" />
     <Compile Include="Assets\Scripts\MaterialBuilder.cs" />
     <Compile Include="Assets\Scripts\PieChartSocketIo.cs" />
+    <Compile Include="Assets\Scripts\PositionObjectOnMap.cs" />
     <Compile Include="Assets\Scripts\RadarChartSocketIO.cs" />
     <Compile Include="Assets\Scripts\TestCameraSwitching.cs" />
     <Compile Include="Assets\Scripts\customSocketIO.cs" />
+    <Compile Include="Assets\Scripts\testCameraFollow.cs" />
     <Compile Include="Assets\Wrld\API\Api.cs" />
     <Compile Include="Assets\Wrld\API\WrldMap.cs" />
     <Compile Include="Assets\Wrld\Demo\Buildings\Scripts\BuildingAltitudePicking.cs" />
@@ -831,7 +832,6 @@
     <Compile Include="Assets\Wrld\Scripts\Utilities\NativeInteropHelpers.cs" />
     <Compile Include="Assets\Wrld\Scripts\ViewNormals.cs" />
     <Compile Include="Assets\Wrld\VRExample\SimpleScene\Scripts\RotateObject.cs" />
-    <Compile Include="Assets\testCameraFollow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Packages\Chart and Graph\Shaders\GradientCanvas.shader" />

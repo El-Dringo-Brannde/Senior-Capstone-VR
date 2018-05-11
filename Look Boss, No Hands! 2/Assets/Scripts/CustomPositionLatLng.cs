@@ -7,7 +7,9 @@ using Wrld.Space;
 using SocketIO;
 
 
-
+/*
+ * Moves the parent component of PositionedObject to the mapping coordinates of Wrld3D
+ */
 public class CustomPositionLatLng : MonoBehaviour {
 
     public GeographicTransform coordinateFrame;
@@ -43,8 +45,7 @@ public class CustomPositionLatLng : MonoBehaviour {
             box.localPosition = new Vector3(0.0f, 40.0f, 0.0f);
             Debug.Log(coordinateFrame);
             coordinateFrame.SetPosition(geoPos);
-        });
-        
+        });   
     }
 
     // Update is called once per frame

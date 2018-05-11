@@ -5,7 +5,9 @@ using UnityEngine;
 using SocketIO;
 using ChartAndGraph;
 
- 
+ /*
+  * No longer used file, but used terrified of breaking project hours before code freeze. 
+  */
 public class customSocketIO : MonoBehaviour
 {
     Dictionary<string, string> BrandSalesDictionary;
