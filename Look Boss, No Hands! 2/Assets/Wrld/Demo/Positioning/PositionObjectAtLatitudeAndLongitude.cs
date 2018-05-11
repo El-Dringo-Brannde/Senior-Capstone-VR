@@ -3,6 +3,11 @@ using UnityEngine;
 using Wrld;
 using Wrld.Space;
 
+/*
+ * Component that on enablement, grabs the bar and pie graph and 
+ * places them appropriately to where the the camera has moved to 
+ * at a specific dealership
+ */ 
 public class PositionObjectAtLatitudeAndLongitude: MonoBehaviour
 {
     public GeographicTransform coordinateFrame;
